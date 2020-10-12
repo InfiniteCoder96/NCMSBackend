@@ -9,7 +9,7 @@ import com.spark.ncms.response.StandardResponse;
 import com.spark.ncms.service.ServiceFactory;
 import com.spark.ncms.service.ServiceType;
 import com.spark.ncms.service.custom.AuthService;
-import com.spark.ncms.util.JWTUtil;
+import com.spark.ncms.security.JWTUtil;
 
 import javax.json.JsonObject;
 import javax.servlet.ServletException;

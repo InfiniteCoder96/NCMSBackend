@@ -1,4 +1,4 @@
-package com.spark.ncms.util;
+package com.spark.ncms.security;
 
 import com.spark.ncms.constants.Constants;
 import io.jsonwebtoken.Claims;
