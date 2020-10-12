@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.spark.ncms.constants.ResponseCode;
 import com.spark.ncms.payload.AuthRequest;
 import com.spark.ncms.payload.AuthResponse;
-import com.spark.ncms.response.StandardResponse;
+import com.spark.ncms.payload.StandardResponse;
 import com.spark.ncms.service.ServiceFactory;
 import com.spark.ncms.service.ServiceType;
 import com.spark.ncms.service.custom.AuthService;

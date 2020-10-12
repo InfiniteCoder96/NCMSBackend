@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.spark.ncms.entity.Gender;
 import com.spark.ncms.entity.Patient;
 import com.spark.ncms.entity.SeverityLevel;
-import com.spark.ncms.response.StandardResponse;
+import com.spark.ncms.payload.StandardResponse;
 import com.spark.ncms.service.ServiceFactory;
 import com.spark.ncms.service.ServiceType;
 import com.spark.ncms.service.custom.PatientService;

@@ -29,7 +29,6 @@ public class JWTUtil {
 
         //create a token
         String compact = Jwts.builder()
-                .setIssuer("lochana")
                 .setSubject(userName)
                 .setIssuedAt(today)
                 .setExpiration(exTime)

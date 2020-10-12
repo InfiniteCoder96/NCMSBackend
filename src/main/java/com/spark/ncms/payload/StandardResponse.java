@@ -1,4 +1,4 @@
-package com.spark.ncms.response;
+package com.spark.ncms.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

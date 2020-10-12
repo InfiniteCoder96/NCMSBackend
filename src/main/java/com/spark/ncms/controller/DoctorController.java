@@ -3,7 +3,7 @@ package com.spark.ncms.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.spark.ncms.entity.Doctor;
-import com.spark.ncms.response.StandardResponse;
+import com.spark.ncms.payload.StandardResponse;
 import com.spark.ncms.service.ServiceFactory;
 import com.spark.ncms.service.ServiceType;
 import com.spark.ncms.service.custom.DoctorService;

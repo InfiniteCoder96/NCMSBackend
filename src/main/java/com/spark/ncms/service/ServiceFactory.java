@@ -1,5 +1,6 @@
 package com.spark.ncms.service;
 
+import com.spark.ncms.controller.StatisticsController;
 import com.spark.ncms.service.custom.impl.*;
 
 public class ServiceFactory {
@@ -29,6 +30,8 @@ public class ServiceFactory {
                 return (T)new AuthServiceImpl();
             case HOSPITAL:
                 return (T)new HospitalServiceImpl();
+            case STATS:
+                return (T)new StatisticsController();
                 default:
                     return null;
         }
